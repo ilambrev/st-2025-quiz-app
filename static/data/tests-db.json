@@ -471,10 +471,10 @@
         {
             "question": "Which HTML tag is used to create hyperlinks?",
             "options": [
-                "<a>",
-                "<link>",
-                "<href>",
-                "<url>"
+                "&lta&gt",
+                "&ltlink&gt",
+                "&lthref&gt",
+                "&lturl&gt"
             ],
             "correct": 0
         },
