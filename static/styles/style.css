@@ -68,3 +68,9 @@ button:hover {
   text-align: center;
   color: #333;
 }
+
+@media (width < 600px) {
+  #quiz-selector {
+    flex-wrap: wrap;
+  }
+}
