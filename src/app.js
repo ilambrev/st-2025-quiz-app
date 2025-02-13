@@ -61,8 +61,11 @@ function calculateScore() {
   let score = 0;
   const quizData = quizesData[quizIdGlobal];
   const headingElements = Array.from(quizContainer.querySelectorAll("h3"));
-  headingElements.forEach(e => e.style.color = "black");
-  console.log(headingElements);
+  const labels = Array.from(quizContainer.querySelector("label"));
+  
+  headingElements.forEach(e => e.classList.remove("wrong-answer-text"));
+  labels.forEach(l => l.classList.remove("wrong-answer-text"));
+  
   quizData.forEach((item, index) => {
     const selectedOption = document.querySelector(
       `input[name="question${index}"]:checked`
@@ -70,7 +73,11 @@ function calculateScore() {
     if (selectedOption && parseInt(selectedOption.value) === item.correct) {
       score++;
     } else {
-      headingElements[index].style.color = "red";
+      headingElements[index].classList.add("wrong-answer-text");
+      if (selectedOption) {
+        selectedOption.parentElement.classList.add("wrong-answer-text");
+        selectedOption.classList.add("wrong-answer-radio");
+      }
     }
   });
   return score;

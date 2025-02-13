@@ -69,6 +69,19 @@ button:hover {
   color: #333;
 }
 
+input[type="radio"] {
+  accent-color: green; 
+  cursor: pointer;
+}
+
+.wrong-answer-text {
+  color: red;
+}
+
+.wrong-answer-radio {
+  filter: hue-rotate(-120deg);
+}
+
 @media (width < 600px) {
   #quiz-selector {
     flex-wrap: wrap;
