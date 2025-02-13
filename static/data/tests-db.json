@@ -1,0 +1,614 @@
+{
+    "1": [
+        {
+            "question": "What does CPU stand for?",
+            "options": [
+                "Central Processing Unit",
+                "Central Programming Unit",
+                "Central Performance Unit",
+                "Central Power Unit"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which of these is an example of a system software?",
+            "options": [
+                "Microsoft Word",
+                "Linux Kernel",
+                "Figma",
+                "Spotify"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which OS is known for its open-source nature?",
+            "options": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Android"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What does HTTP stand for?",
+            "options": [
+                "HyperText Transfer Protocol",
+                "HyperText Transfer Process",
+                "HyperText Translation Protocol",
+                "HyperText Transaction Protocol"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which email protocol is used to retrieve emails?",
+            "options": [
+                "SMTP",
+                "IMAP",
+                "HTTP",
+                "FTP"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which layer of the OSI model is responsible for routing?",
+            "options": [
+                "Application",
+                "Transport",
+                "Network",
+                "Data Link"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which command in Git is used to download changes from a remote repository?",
+            "options": [
+                "Push",
+                "Pull",
+                "Clone",
+                "Commit"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which SQL keyword is used to filter records?",
+            "options": [
+                "JOIN",
+                "WHERE",
+                "SELECT",
+                "GROUP"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which programming language is primarily used for web development?",
+            "options": [
+                "Java",
+                "Python",
+                "JavaScript",
+                "C#"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the default file format for MongoDB documents?",
+            "options": [
+                "JSON",
+                "XML",
+                "CSV",
+                "YAML"
+            ],
+            "correct": 0
+        }
+    ],
+    "2": [
+        {
+            "question": "Which part of the computer is considered its 'brain'?",
+            "options": [
+                "Hard Drive",
+                "RAM",
+                "CPU",
+                "Motherboard"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What does RAM stand for?",
+            "options": [
+                "Random Access Memory",
+                "Read Access Memory",
+                "Read And Modify",
+                "Randomly Allocated Memory"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which operating system is open source?",
+            "options": [
+                "Windows",
+                "macOS",
+                "Linux",
+                "iOS"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the main function of DNS?",
+            "options": [
+                "Storing data",
+                "Resolving domain names to IP addresses",
+                "Monitoring network traffic",
+                "Encrypting emails"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which HTTP status code represents 'Not Found'?",
+            "options": [
+                "200",
+                "404",
+                "500",
+                "403"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is an example of a relational database?",
+            "options": [
+                "MongoDB",
+                "MySQL",
+                "Redis",
+                "Cassandra"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which command in Git is used to download changes from a remote repository?",
+            "options": [
+                "clone",
+                "pull",
+                "push",
+                "merge"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What does the SELECT statement in SQL do?",
+            "options": [
+                "Delete data",
+                "Insert data",
+                "Retrieve data",
+                "Update data"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which is an example of a high-level programming language?",
+            "options": [
+                "Python",
+                "Assembly",
+                "Machine Code",
+                "Binary"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which JavaScript method is used to add an element to an array?",
+            "options": [
+                "push",
+                "pop",
+                "shift",
+                "slice"
+            ],
+            "correct": 0
+        }
+    ],
+    "3": [
+        {
+            "question": "What component connects all hardware components in a computer?",
+            "options": [
+                "Motherboard",
+                "Power Supply",
+                "GPU",
+                "RAM"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which of these is an example of firmware?",
+            "options": [
+                "BIOS",
+                "Photoshop",
+                "Linux Kernel",
+                "Notepad"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What does IP stand for in networking?",
+            "options": [
+                "Internet Protocol",
+                "Internal Process",
+                "Information Packet",
+                "Integrated Program"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which protocol is used for secure web browsing?",
+            "options": [
+                "HTTP",
+                "HTTPS",
+                "FTP",
+                "SMTP"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which programming language is primarily used for web development?",
+            "options": [
+                "Python",
+                "Java",
+                "JavaScript",
+                "C#"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What does a JOIN clause in SQL do?",
+            "options": [
+                "Sort records",
+                "Combine records from multiple tables",
+                "Insert new data",
+                "Delete existing data"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which type of database is MongoDB?",
+            "options": [
+                "Relational",
+                "Non-relational",
+                "Hierarchical",
+                "Graph"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which Git command is used to create a local copy of a repository?",
+            "options": [
+                "clone",
+                "init",
+                "commit",
+                "merge"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the primary purpose of CSS in web development?",
+            "options": [
+                "Structure content",
+                "Add interactivity",
+                "Style content",
+                "Fetch data"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which programming language is often used for Android development?",
+            "options": [
+                "Java",
+                "Python",
+                "C++",
+                "PHP"
+            ],
+            "correct": 0
+        }
+    ],
+    "4": [
+        {
+            "question": "Which component stores data persistently?",
+            "options": [
+                "RAM",
+                "CPU",
+                "Hard Drive",
+                "Cache"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What does GUI stand for?",
+            "options": [
+                "Graphical User Interface",
+                "General User Interaction",
+                "Graphical User Integration",
+                "General User Interface"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which protocol is used to send emails?",
+            "options": [
+                "IMAP",
+                "SMTP",
+                "HTTP",
+                "FTP"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What does a MAC address identify?",
+            "options": [
+                "A network device",
+                "A website",
+                "A computer program",
+                "An operating system"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which SQL statement is used to combine results from multiple tables?",
+            "options": [
+                "JOIN",
+                "MERGE",
+                "SELECT",
+                "GROUP"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which tool is primarily used to view and edit JSON documents in MongoDB?",
+            "options": [
+                "Workbench",
+                "Compass",
+                "pgAdmin",
+                "Sequel Pro"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which Git command saves changes to the local repository?",
+            "options": [
+                "pull",
+                "push",
+                "commit",
+                "clone"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which CSS property is used to change the background color of an element?",
+            "options": [
+                "color",
+                "background-color",
+                "border-color",
+                "text-color"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which JavaScript function is used to log information to the console?",
+            "options": [
+                "alert()",
+                "console.log()",
+                "log()",
+                "print()"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which programming language is primarily used for iOS development?",
+            "options": [
+                "Java",
+                "Python",
+                "Swift",
+                "C#"
+            ],
+            "correct": 2
+        }
+    ],
+    "5": [
+        {
+            "question": "Which type of memory is volatile?",
+            "options": [
+                "Hard Drive",
+                "RAM",
+                "ROM",
+                "SSD"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is the function of the Linux command 'ls'?",
+            "options": [
+                "List files and directories",
+                "Create files",
+                "Delete directories",
+                "Change permissions"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which layer of the OSI model ensures reliable data transfer?",
+            "options": [
+                "Physical",
+                "Network",
+                "Transport",
+                "Application"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which browser tool is used to inspect elements on a webpage?",
+            "options": [
+                "DevTools",
+                "Notepad",
+                "Terminal",
+                "Task Manager"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which is an example of a compiled programming language?",
+            "options": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Ruby"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which Git command is used to combine changes from one branch into another?",
+            "options": [
+                "merge",
+                "push",
+                "pull",
+                "clone"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which HTML tag is used to create hyperlinks?",
+            "options": [
+                "<a>",
+                "<link>",
+                "<href>",
+                "<url>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which protocol is used for receiving emails?",
+            "options": [
+                "SMTP",
+                "IMAP",
+                "HTTP",
+                "HTTPS"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which database type is designed for structured data?",
+            "options": [
+                "Relational",
+                "Non-relational",
+                "Graph",
+                "Key-value"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which property in CSS is used to make text bold?",
+            "options": [
+                "font-style",
+                "font-weight",
+                "text-style",
+                "text-weight"
+            ],
+            "correct": 1
+        }
+    ],
+    "6": [
+        {
+            "question": "Which device is used for long-term storage in a computer?",
+            "options": [
+                "RAM",
+                "SSD",
+                "CPU",
+                "Cache"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which file system is commonly used on Linux?",
+            "options": [
+                "NTFS",
+                "HFS+",
+                "APFS",
+                "EXT4"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Which part of the OSI model is responsible for data formatting and encryption?",
+            "options": [
+                "Session",
+                "Presentation",
+                "Transport",
+                "Application"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which GitHub feature allows collaboration on code?",
+            "options": [
+                "Branches",
+                "Issues",
+                "Pull Requests",
+                "Commits"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which language is most commonly used for data analysis?",
+            "options": [
+                "Java",
+                "Python",
+                "C++",
+                "JavaScript"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which SQL statement is used to insert data into a table?",
+            "options": [
+                "SELECT",
+                "INSERT",
+                "UPDATE",
+                "DELETE"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which MongoDB data format is commonly used?",
+            "options": [
+                "XML",
+                "JSON",
+                "CSV",
+                "YAML"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which property in CSS is used to align text?",
+            "options": [
+                "text-align",
+                "font-align",
+                "align-text",
+                "text-style"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which programming language is popular for machine learning?",
+            "options": [
+                "Java",
+                "PHP",
+                "Python",
+                "C#"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the primary purpose of HTML?",
+            "options": [
+                "Style content",
+                "Structure content",
+                "Add interactivity",
+                "Fetch data"
+            ],
+            "correct": 1
+        }
+    ]
+}
