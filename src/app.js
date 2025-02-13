@@ -62,7 +62,6 @@ function calculateScore() {
   const quizData = quizesData[quizIdGlobal];
   const headingElements = Array.from(quizContainer.querySelectorAll("h3"));
   const labels = Array.from(quizContainer.querySelectorAll("label"));
-  console.log(labels);
   
   headingElements.forEach(e => e.classList.remove("wrong-answer-text"));
   labels.forEach(l => l.classList.remove("wrong-answer-text"));
