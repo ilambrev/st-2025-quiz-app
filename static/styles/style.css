@@ -7,7 +7,9 @@ body {
 
 #quiz-selector {
   display: flex;
-  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
   max-width: 600px;
   margin: auto;
   background: white;
@@ -48,7 +50,8 @@ h2 {
 
 button {
   display: block;
-  width: 100%;
+  /* width: 100%; */
+  width: 100px;
   padding: 10px;
   background-color: #007BFF;
   color: white;
@@ -56,6 +59,10 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+}
+
+#submit {
+  width: 100%;
 }
 
 button:hover {
@@ -82,8 +89,8 @@ input[type="radio"] {
   filter: hue-rotate(-120deg);
 }
 
-@media (width < 600px) {
+/* @media (width < 600px) {
   #quiz-selector {
     flex-wrap: wrap;
   }
-}
+} */

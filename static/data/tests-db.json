@@ -610,5 +610,413 @@
             ],
             "correct": 1
         }
+    ],
+    "7": [
+        {
+            "question": "Which device translates digital signals into audible sound?",
+            "options": [
+                "Graphics Card",
+                "Sound Card",
+                "Hard Drive",
+                "Power Supply"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which command in Linux is used to display the current working directory?",
+            "options": [
+                "pwd",
+                "ls",
+                "cd",
+                "mkdir"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which OSI layer handles error detection and correction?",
+            "options": [
+                "Data Link",
+                "Transport",
+                "Session",
+                "Network"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which HTTP status code represents 'Forbidden'?",
+            "options": [
+                "200",
+                "404",
+                "403",
+                "500"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which is an example of a scripting language?",
+            "options": [
+                "C++",
+                "Python",
+                "Java",
+                "Swift"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which database operation retrieves all rows where a column equals a specific value?",
+            "options": [
+                "INSERT",
+                "SELECT",
+                "WHERE",
+                "JOIN"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which property in CSS is used to set the font size of an element?",
+            "options": [
+                "font-weight",
+                "font-style",
+                "font-size",
+                "text-size"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which Git command initializes a new repository?",
+            "options": [
+                "push",
+                "pull",
+                "init",
+                "clone"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which HTML tag is used to create an ordered list?",
+            "options": [
+                "&ltul&gt",
+                "&ltol&gt",
+                "&ltli&gt",
+                "&ltlist&gt"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which programming language is often used for backend web development?",
+            "options": [
+                "CSS",
+                "PHP",
+                "HTML",
+                "SQL"
+            ],
+            "correct": 1
+        }
+    ],
+    "8": [
+        {
+            "question": "Which part of a computer is responsible for rendering images on the screen?",
+            "options": [
+                "Sound Card",
+                "Graphics Card",
+                "Motherboard",
+                "RAM"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which Linux command is used to change file permissions?",
+            "options": [
+                "chmod",
+                "chown",
+                "ls",
+                "rm"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which OSI layer manages end-to-end communication?",
+            "options": [
+                "Network",
+                "Transport",
+                "Session",
+                "Data Link"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which HTTP method is used to delete a resource on a server?",
+            "options": [
+                "POST",
+                "GET",
+                "DELETE",
+                "PUT"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which database type stores data in tables with rows and columns?",
+            "options": [
+                "Relational",
+                "Non-relational",
+                "Graph",
+                "Key-value"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which Git command is used to view the history of commits?",
+            "options": [
+                "status",
+                "log",
+                "diff",
+                "show"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which CSS property is used to set the space between lines of text?",
+            "options": [
+                "line-height",
+                "letter-spacing",
+                "text-spacing",
+                "font-spacing"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which HTML element is used to embed a video?",
+            "options": [
+                "&ltvideo&gt",
+                "&ltmedia&gt",
+                "&ltiframe&gt",
+                "&ltsource&gt"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which tool is used to analyze and debug network traffic?",
+            "options": [
+                "Fiddler",
+                "Photoshop",
+                "Vim",
+                "Slack"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which programming language is widely used for data science?",
+            "options": [
+                "Java",
+                "JavaScript",
+                "Python",
+                "C++"
+            ],
+            "correct": 2
+        }
+    ],
+    "9": [
+        {
+            "question": "Which storage device uses flash memory?",
+            "options": [
+                "HDD",
+                "SSD",
+                "DVD",
+                "Floppy Disk"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which Linux command is used to create a new directory?",
+            "options": [
+                "mkdir",
+                "rmdir",
+                "touch",
+                "cd"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which OSI layer is responsible for physical addressing?",
+            "options": [
+                "Data Link",
+                "Physical",
+                "Transport",
+                "Network"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which tool can be used to inspect network requests in a web browser?",
+            "options": [
+                "DevTools",
+                "Git",
+                "Terminal",
+                "Task Manager"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which database operation is used to combine rows from two tables?",
+            "options": [
+                "SELECT",
+                "JOIN",
+                "WHERE",
+                "DELETE"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which Git command stages changes for a commit?",
+            "options": [
+                "add",
+                "commit",
+                "pull",
+                "push"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which CSS property is used to change the text color of an element?",
+            "options": [
+                "text-color",
+                "color",
+                "font-color",
+                "background-color"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which HTML tag is used for the largest heading?",
+            "options": [
+                "&lth6&gt",
+                "&lth1&gt",
+                "&ltheader&gt",
+                "&lthead&gt"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which programming language is primarily used for iOS app development?",
+            "options": [
+                "Swift",
+                "Java",
+                "Python",
+                "C#"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which Linux command is used to display the contents of a file?",
+            "options": [
+                "cat",
+                "ls",
+                "cd",
+                "pwd"
+            ],
+            "correct": 0
+        }
+    ],
+    "10": [
+        {
+            "question": "Which component is responsible for processing instructions in a computer?",
+            "options": [
+                "RAM",
+                "Motherboard",
+                "CPU",
+                "GPU"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which Linux command is used to delete files?",
+            "options": [
+                "rm",
+                "mkdir",
+                "cd",
+                "touch"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which OSI layer is responsible for managing sessions between applications?",
+            "options": [
+                "Application",
+                "Session",
+                "Transport",
+                "Presentation"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which email protocol is used for retrieving emails?",
+            "options": [
+                "SMTP",
+                "IMAP",
+                "POP3",
+                "HTTP"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which database type uses collections instead of tables?",
+            "options": [
+                "Relational",
+                "Non-relational",
+                "Graph",
+                "Key-value"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which Git command shows differences between commits?",
+            "options": [
+                "status",
+                "log",
+                "diff",
+                "commit"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which CSS property controls the visibility of an element?",
+            "options": [
+                "visibility",
+                "display",
+                "opacity",
+                "hidden"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which HTML element is used for creating a form?",
+            "options": [
+                "&ltinput&gt",
+                "&ltform&gt",
+                "&ltlabel&gt",
+                "&lttextarea&gt"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which language is best for building cross-platform mobile apps?",
+            "options": [
+                "JavaScript",
+                "Swift",
+                "Kotlin",
+                "Dart"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Which Linux command is used to move files?",
+            "options": [
+                "mv",
+                "cp",
+                "rm",
+                "ls"
+            ],
+            "correct": 0
+        }
     ]
 }
