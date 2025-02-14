@@ -29,6 +29,11 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.result {
+  width: 100%;
+  background: white;
+}
+
 h1,
 h2 {
   text-align: center;
@@ -61,12 +66,18 @@ button {
   font-size: 16px;
 }
 
-#submit {
+#submit, #show-answers {
   width: 100%;
 }
 
 button:hover {
   background-color: #0056b3;
+}
+
+.answers-container {
+  display: none;
+  font-size: 14px;
+  text-align: left;
 }
 
 .result {

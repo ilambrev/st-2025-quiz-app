@@ -54,7 +54,7 @@ async function loadQuiz(e) {
       `)
     .join("");
 
-    document.querySelector(".quiz-container").style.display = "block";
+  document.querySelector(".quiz-container").style.display = "block";
 }
 
 function calculateScore() {
@@ -62,10 +62,10 @@ function calculateScore() {
   const quizData = quizesData[quizIdGlobal];
   const headingElements = Array.from(quizContainer.querySelectorAll("h3"));
   const labels = Array.from(quizContainer.querySelectorAll("label"));
-  
+
   headingElements.forEach(e => e.classList.remove("wrong-answer-text"));
   labels.forEach(l => l.classList.remove("wrong-answer-text"));
-  
+
   quizData.forEach((item, index) => {
     const selectedOption = document.querySelector(
       `input[name="question${index}"]:checked`
@@ -84,9 +84,54 @@ function calculateScore() {
 }
 
 submitButton.addEventListener("click", () => {
+  resultContainer.innerHTML = "";
+  
   const quizData = quizesData[quizIdGlobal];
   const score = calculateScore();
-  resultContainer.textContent = `You scored ${score} out of ${quizData.length}`;
+
+  const paragraphElement = document.createElement("p");
+  paragraphElement.textContent = `You scored ${score} out of ${quizData.length}`;
+
+  const answersButton = document.createElement("button");
+  answersButton.textContent = "Show Answers";
+  answersButton.id = "show-answers";
+  answersButton.addEventListener("click", showAnswers);
+
+  const answersContainer = document.createElement("div");
+  answersContainer.classList.add("answers-container");
+  answersContainer.id = "answers-container";
+
+  resultContainer.appendChild(paragraphElement);
+  resultContainer.appendChild(answersButton);
+  resultContainer.appendChild(answersContainer);
 });
+
+function showAnswers(e) {
+  const button = e.currentTarget;
+  const buttonState = button.textContent;
+  const answersContainer = document.querySelector("#answers-container");
+
+  if (buttonState == "Show Answers") {
+    const answers = quizesData[quizIdGlobal].map(q => [q.question, q.options[q.correct]]);
+    answersContainer.innerHTML = answers
+      .map((answer, index) => `
+        <div>
+          <h4>${index + 1}. ${answer[0]}</h4>
+          <ul>
+              <li>${answer[1]}</li>
+          </ul>
+        </div>
+      `)
+      .join("");
+
+    answersContainer.style.display = "block";
+    button.textContent = "Hide Answers";
+  } else {
+    answersContainer.innerHTML = "";
+    answersContainer.style.display = "none";
+    button.textContent = "Show Answers";
+  }
+
+}
 
 getQuiz();
