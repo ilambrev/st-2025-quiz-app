@@ -30,6 +30,9 @@ async function getQuiz() {
 async function loadQuiz(e) {
   const quizId = e.currentTarget.getAttribute("data-quizid");
   const quizData = quizesData[quizId];
+  
+  resultContainer.innerHTML = "";
+  
   quizIdGlobal = quizId;
   quizContainer.parentElement.querySelector("h2").textContent = `Quiz #${quizId}`;
   quizContainer.innerHTML = quizData
